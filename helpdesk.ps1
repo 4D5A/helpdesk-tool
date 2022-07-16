@@ -39,7 +39,7 @@ Function Test-ClientConnection {
 }
 
 Function Get-PublicIP {
-    $global:publicipaddress = (Invoke-WebRequest -URI "http://ipinfo.io/ip".Content)
+    $global:publicipaddress = (Invoke-WebRequest -URI "http://ipinfo.io/ip").Content
 }
 
 Function Get-Username {
